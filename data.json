@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project-name": "project-1",
+            "description": "random-quote-generator",
+            "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+            "live_link": "",
+            "github-link": "https://github.com/alexZerb/project-1",
+            "image_urls": ""
+        }, 
+        {
+            "id": 1,
+            "project-name": "project-2",
+            "description": "data-pagination",
+            "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+            "live_link": "",
+            "github-link": "https://github.com/alexZerb/project-2",
+            "image_urls": ""
+        }, 
+        {
+            "id": 2,
+            "project-name": "project-3",
+            "description": "interactive-form",
+            "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+            "live_link": "",
+            "github-link": "https://github.com/alexZerb/project-3",
+            "image_urls": ""
+        }, 
+        {
+            "id": 3,
+            "project-name": "project-4",
+            "description": "game-show-app",
+            "technologies": ["JavaScript", "HTML", "CSS", "Object Oriented Programming", "Visual Studio Code"],
+            "live_link": "",
+            "github-link": "https://github.com/alexZerb/project-4",
+            "image_urls": ""
+        }, 
+        {
+            "id": 4,
+            "project-name": "project-4",
+            "description": "public-api-requests",
+            "technologies": ["JavaScript", "AJAX"],
+            "live_link": "",
+            "github-link": "https://github.com/alexZerb/project-5",
+            "image_urls": ""
+        }
+    ]
+}
