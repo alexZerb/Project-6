@@ -1,8 +1,8 @@
 const express = require('express');
-
+const { projects } = require('./data.json');
 const app = express();
 
-const { projects } = require('./data.json');
+
 
 app.use(express.json());
 
