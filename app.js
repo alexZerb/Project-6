@@ -2,23 +2,21 @@
 const express = require('express');
 const app = express();
 const mainRoute = require('./routes/main');
-const { projects } = require('./data.json');
+const errorHandling = require('./routes/error')
 
 
 // View engine set to pug
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
-// Middleware for Homepage, about, and projects
+// Routing for Homepage, about, and projects
 
 app.use(mainRoute);
 
-//  404 Error Handling
-app.use(( req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
+// Routing for error handling
+app.use(errorHandling.fourOneFourHandler);
+app.use(errorHandling.globalHandler);
+
 
 
 //Set app to listen on port 3000 
