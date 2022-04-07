@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": "0",
+            "id": 0,
             "project_name": "Random Quote Generator",
             "description": "A random quote is selected from an array of questions using JavaScript. In addition, there is a timer that will automatically refresh the page displaying a new quote with a new background color.",
             "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
@@ -10,7 +10,7 @@
             "image_urls": [ "/static/img/project1LC.jpg", "/static/img/project1PT.jpg" ]
         }, 
         {
-            "id": "1",
+            "id": 1,
             "project_name": "Data Pagination and Filtering",
             "description": "Using JavaScript, this project breaks up 42 students into several pages of 12 students at a time.",
             "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
@@ -19,7 +19,7 @@
             "image_urls": [ "/static/img/project2LC.jpg", "/static/img/project2PT.jpg" ]
         }, 
         {
-            "id": "2",
+            "id": 2,
             "project_name": "Interactive Form",
             "description": "A form created with HTML and logic programmed with Javascript. Form submission is dependent upon filling out the form correctly. Different colors and styles are available depending on your selection under t-shirt field",
             "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
@@ -29,7 +29,7 @@
            ]
         }, 
         {
-            "id": "3",
+            "id": 3,
             "project_name": "Phrase Hunter",
             "description": "Phrase Hunter: Do we have any Will Smith movie buffs? This 'hangman' styled game  was created around popular Will Smith movies! Think you have what it takes? With only 5 lives you have to spell out the title of each movie.",
             "technologies": ["JavaScript", "HTML", "CSS", "Object Oriented Programming", "Visual Studio Code"],
@@ -38,7 +38,7 @@
             "image_urls": [ "/static/img/project4LC.jpg", "/static/img/project4PT.jpg" ]
         }, 
         {
-            "id": "4",
+            "id": 4,
             "project_name": "Employee Directory App",
             "description": "Using AJAX and Fetch API, this application gathers 12 random users from random.user.me. A picture and several contact details are available to view for each individual student.",
             "technologies": ["JavaScript", "AJAX", "HTML", "CSS", "Git", "Error-Handling", "JSON", "Visual Studio Code"],
