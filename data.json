@@ -12,7 +12,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "Using JavaScript, this project breaks up 42 students into several pages of 12 students at a time.",
+            "description": "Using JavaScript, this project breaks up an array of 42 students into several pages of 12 students at a time.",
             "technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
             "live_link": "https://szczerba-student-directory.netlify.app/",
             "github_link": "https://github.com/alexZerb/project-2",
