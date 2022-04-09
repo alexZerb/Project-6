@@ -43,7 +43,7 @@
             "description": "Using AJAX and Fetch API, this application gathers 12 random users from random.user.me. A picture and several contact details are available to view for each individual student.",
             "technologies": ["JavaScript", "AJAX", "HTML", "CSS", "Git", "Error-Handling", "JSON", "Visual Studio Code"],
             "live_link": "https://szczerba-employee-directory.netlify.app/",
-            "github_link": "https://github.com/alexZerb/project-5",
+            "github_link": "https://github.com/alexZerb/unit-5",
             "image_urls": [ "/static/img/project5LC.jpg", "/static/img/project5PT.jpg" ]
         }
     ]

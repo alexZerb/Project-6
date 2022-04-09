@@ -1,3 +1,4 @@
+// separate error handling for global and 404
 function fourOneFourHandler( req, res, next) {
     const err = new Error('Not Found');
     err.status = 404;
@@ -15,5 +16,5 @@ function globalHandler(err, req, res, next){
     } 
     console.log(err.status, err.message);
 };
-
+// exports functions for app.js
 module.exports = {fourOneFourHandler, globalHandler};
